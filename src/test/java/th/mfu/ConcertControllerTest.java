@@ -82,7 +82,7 @@ public class ConcertControllerTest {
         String viewName = concertController.deleteConcert(concertId);
 
         assert(viewName.equals("redirect:/concerts"));
-        verify(seatRepository, times(1)).deleteByConcertId(concertId);
+        verify(seatRepository, times(1)).deleteById(concertId);
         verify(concertRepository, times(1)).deleteById(concertId);
     }
 

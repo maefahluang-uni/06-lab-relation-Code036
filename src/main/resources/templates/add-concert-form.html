@@ -21,6 +21,10 @@
             <h2>Performer</h2>
             <div class="form-group">
                 <!-- TODO: add label and field for performer -->
+                <label for="id">Id:</label>
+                <input type="text" id="id" th:field="*{performer.id}" required><br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" th:field="*{performer.name}" required><br>
               
             </div>
             <button type="submit" class="btn btn-primary">Save Concert</button>
