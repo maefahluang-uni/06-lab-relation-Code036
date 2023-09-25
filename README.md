@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=12035451)
  Web Lab - Spring Data with MVC
  ====================
 In this lab, we will develop a web application that support concert ticket's reservation. It consists of 2 parts: Admin and Front-end. We will only develop the admin part. The admin part is used to manage the concerts.  We will use Spring Data to manage the data that have relationships. We will use H2 as a database for this lab.
